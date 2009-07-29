@@ -2,7 +2,7 @@ use inc::Module::Install;
 name 'see';
 all_from 'lib/see.pm';
 
-# requires '';
+requires 'Class::Inspector';
 
 tests 't/*.t';
 author_tests 'xt';
